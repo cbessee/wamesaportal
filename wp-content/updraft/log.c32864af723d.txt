@@ -1,0 +1,350 @@
+0000.002 (0) Opened log file at time: Thu, 29 Dec 2016 22:48:36 +0000 on http://mesaportal.dev
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.12.21.22 WP: 4.6.1 PHP: 5.6.27 (apache2handler, Darwin ColeMac 16.3.0 Darwin Kernel Version 16.3.0: Thu Nov 17 20:23:58 PST 2016; root:xnu-3789.31.2~1/RELEASE_X86_64 x86_64) MySQL: 5.6.33 WPLANG: en_US Server: Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.12 PHP/5.6.27 mod_ssl/2.2.31 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 50M | 51.3M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 132061 MB
+0000.010 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.022 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.025 (0) Set semaphore last lock (fd) time to 2016-12-29 22:48:36
+0000.026 (0) Semaphore lock (fd) complete
+0000.031 (0) Backup run: resumption=0, nonce=c32864af723d, begun at=1483051716 (0s ago), job type=backup, label=Automatic backup before update
+0000.033 (0) A resumption will be scheduled for the cloud backup stage
+0000.034 (0) Scheduling a resumption (1) after 300 seconds (1483052016) in case this run gets aborted
+0000.047 (0) Checking if we have a zip executable available
+0000.048 (0) Testing: /usr/bin/zip
+0000.077 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.078 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.080 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.081 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.082 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.095 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.097 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.143 (0) Working binary zip found: /usr/bin/zip
+0000.146 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.147 (0) Creation of backups of directories: beginning
+0000.150 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.615 (0) Total entities for the zip file: 831 directories, 5113 files (0 skipped as non-modified), 56.6 MB
+0000.620 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.626 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.631 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.636 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.641 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.642 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.8 MB, 5113 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.193 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: size is now: 1.90 MB
+0002.200 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 600 files added (on-disk size: 1974 KB)
+0002.205 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 700 files added (on-disk size: 1974 KB)
+0002.210 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 800 files added (on-disk size: 1974 KB)
+0002.215 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 900 files added (on-disk size: 1974 KB)
+0002.220 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 1000 files added (on-disk size: 1974 KB)
+0002.222 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.7 MB, 5113 files batched, 501 (1002) added so far); re-opening (prior size: 1974 KB)
+0005.114 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: size is now: 5.00 MB
+0005.122 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 1100 files added (on-disk size: 5167.9 KB)
+0005.127 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 1200 files added (on-disk size: 5167.9 KB)
+0005.131 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 1300 files added (on-disk size: 5167.9 KB)
+0005.136 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 1400 files added (on-disk size: 5167.9 KB)
+0005.140 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 1500 files added (on-disk size: 5167.9 KB)
+0005.141 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.9 MB, 5113 files batched, 501 (1503) added so far); re-opening (prior size: 5167.9 KB)
+0006.501 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: size is now: 7.90 MB
+0006.509 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 1600 files added (on-disk size: 8112.5 KB)
+0006.514 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 1700 files added (on-disk size: 8112.5 KB)
+0006.519 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 1800 files added (on-disk size: 8112.5 KB)
+0006.523 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 1900 files added (on-disk size: 8112.5 KB)
+0006.528 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 2000 files added (on-disk size: 8112.5 KB)
+0006.529 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.2 MB, 5113 files batched, 501 (2004) added so far); re-opening (prior size: 8112.5 KB)
+0008.311 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 2100 files added (on-disk size: 9714.7 KB)
+0008.316 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 2200 files added (on-disk size: 9714.7 KB)
+0008.321 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 2300 files added (on-disk size: 9714.7 KB)
+0008.326 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 2400 files added (on-disk size: 9714.7 KB)
+0008.330 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 2500 files added (on-disk size: 9714.7 KB)
+0008.332 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.5 MB, 5113 files batched, 501 (2505) added so far); re-opening (prior size: 9714.7 KB)
+0009.860 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 2600 files added (on-disk size: 10768.1 KB)
+0009.865 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 2700 files added (on-disk size: 10768.1 KB)
+0009.869 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 2800 files added (on-disk size: 10768.1 KB)
+0009.874 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 2900 files added (on-disk size: 10768.1 KB)
+0009.879 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 3000 files added (on-disk size: 10768.1 KB)
+0009.881 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.2 MB, 5113 files batched, 501 (3006) added so far); re-opening (prior size: 10768.1 KB)
+0010.609 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 3100 files added (on-disk size: 12428.9 KB)
+0010.614 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 3200 files added (on-disk size: 12428.9 KB)
+0010.619 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 3300 files added (on-disk size: 12428.9 KB)
+0010.624 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 3400 files added (on-disk size: 12428.9 KB)
+0010.630 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 3500 files added (on-disk size: 12428.9 KB)
+0010.632 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.2 MB, 5113 files batched, 501 (3507) added so far); re-opening (prior size: 12428.9 KB)
+0012.418 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: size is now: 14.60 MB
+0012.425 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 3600 files added (on-disk size: 14965.9 KB)
+0012.430 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 3700 files added (on-disk size: 14965.9 KB)
+0012.435 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 3800 files added (on-disk size: 14965.9 KB)
+0012.440 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 3900 files added (on-disk size: 14965.9 KB)
+0012.445 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 4000 files added (on-disk size: 14965.9 KB)
+0012.447 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 5113 files batched, 501 (4008) added so far); re-opening (prior size: 14965.9 KB)
+0013.488 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 4100 files added (on-disk size: 15796.2 KB)
+0013.493 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 4200 files added (on-disk size: 15796.2 KB)
+0013.498 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 4300 files added (on-disk size: 15796.2 KB)
+0013.503 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 4400 files added (on-disk size: 15796.2 KB)
+0013.509 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 4500 files added (on-disk size: 15796.2 KB)
+0013.510 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3 MB, 5113 files batched, 501 (4509) added so far); re-opening (prior size: 15796.2 KB)
+0014.746 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 4600 files added (on-disk size: 17031.9 KB)
+0014.751 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 4700 files added (on-disk size: 17031.9 KB)
+0014.756 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 4800 files added (on-disk size: 17031.9 KB)
+0014.761 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 4900 files added (on-disk size: 17031.9 KB)
+0014.766 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 5000 files added (on-disk size: 17031.9 KB)
+0014.768 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.5 MB, 5113 files batched, 501 (5010) added so far); re-opening (prior size: 17031.9 KB)
+0015.968 (0) Zip: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip.tmp: 5100 files added (on-disk size: 19134.5 KB)
+0016.369 (0) Created plugins zip (0) - 19247.9 KB in 16.2 s (1187.2 KB/s) (SHA1 checksum: 16a1b5221bc9a876b2fd724382214033db648f67)
+0016.372 (0) No backup of themes: excluded by user's options
+0016.390 (0) No backup of uploads: excluded by user's options
+0016.391 (0) No backup of wpcore: excluded by user's options
+0016.392 (0) No backup of others: excluded by user's options
+0016.393 (0) No backup of more: excluded by user's options
+0016.398 (0) Saving backup status to database (elements: 2)
+0016.402 (0) Beginning creation of database dump (WordPress DB)
+0016.533 (0) Table wpq8Ruf6bs_options: Total expected rows (approximate): 399
+0016.671 (0) Table wpq8Ruf6bs_options: Total rows added: 354 in 0.14 seconds
+0016.674 (0) Table wpq8Ruf6bs_options: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_options.table.gz - 373.2 KB)
+0016.679 (0) Table wpq8Ruf6bs_users: Total expected rows (approximate): 1003
+0016.748 (0) Table wpq8Ruf6bs_users: Total rows added: 920 in 0.07 seconds
+0016.750 (0) Table wpq8Ruf6bs_users: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_users.table.gz - 60.6 KB)
+0016.755 (0) Table wpq8Ruf6bs_usermeta: Total expected rows (approximate): 21250
+0017.587 (0) Table wpq8Ruf6bs_usermeta: Total rows added: 21232 in 0.83 seconds
+0017.589 (0) Table wpq8Ruf6bs_usermeta: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_usermeta.table.gz - 185.2 KB)
+0017.614 (0) Table wpq8Ruf6bs_commentmeta: Total expected rows (approximate): 0
+0017.619 (0) Table wpq8Ruf6bs_commentmeta: Total rows added: 0 in 0.00 seconds
+0017.620 (0) Table wpq8Ruf6bs_commentmeta: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_commentmeta.table.gz - 0.4 KB)
+0017.624 (0) Table wpq8Ruf6bs_comments: Total expected rows (approximate): 0
+0017.628 (0) Table wpq8Ruf6bs_comments: Total rows added: 0 in 0.00 seconds
+0017.630 (0) Table wpq8Ruf6bs_comments: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_comments.table.gz - 0.5 KB)
+0017.655 (0) Table wpq8Ruf6bs_links: Total expected rows (approximate): 0
+0017.659 (0) Table wpq8Ruf6bs_links: Total rows added: 0 in 0.00 seconds
+0017.661 (0) Table wpq8Ruf6bs_links: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_links.table.gz - 0.4 KB)
+0017.665 (0) Table wpq8Ruf6bs_postmeta: Total expected rows (approximate): 411
+0017.682 (0) Table wpq8Ruf6bs_postmeta: Total rows added: 323 in 0.02 seconds
+0017.684 (0) Table wpq8Ruf6bs_postmeta: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_postmeta.table.gz - 7.9 KB)
+0017.688 (0) Table wpq8Ruf6bs_posts: Total expected rows (approximate): 215
+0017.716 (0) Table wpq8Ruf6bs_posts: Total rows added: 155 in 0.03 seconds
+0017.718 (0) Table wpq8Ruf6bs_posts: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_posts.table.gz - 13.9 KB)
+0017.722 (0) Table wpq8Ruf6bs_term_relationships: Total expected rows (approximate): 21
+0017.726 (0) Table wpq8Ruf6bs_term_relationships: Total rows added: 21 in 0.00 seconds
+0017.727 (0) Table wpq8Ruf6bs_term_relationships: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_term_relationships.table.gz - 0.4 KB)
+0017.732 (0) Table wpq8Ruf6bs_term_taxonomy: Total expected rows (approximate): 4
+0017.737 (0) Table wpq8Ruf6bs_term_taxonomy: Total rows added: 4 in 0.00 seconds
+0017.738 (0) Table wpq8Ruf6bs_term_taxonomy: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_term_taxonomy.table.gz - 0.5 KB)
+0017.763 (0) Table wpq8Ruf6bs_termmeta: Total expected rows (approximate): 11
+0017.769 (0) Table wpq8Ruf6bs_termmeta: Total rows added: 11 in 0.00 seconds
+0017.771 (0) Table wpq8Ruf6bs_termmeta: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_termmeta.table.gz - 0.5 KB)
+0017.775 (0) Table wpq8Ruf6bs_terms: Total expected rows (approximate): 4
+0017.779 (0) Table wpq8Ruf6bs_terms: Total rows added: 4 in 0.00 seconds
+0017.781 (0) Table wpq8Ruf6bs_terms: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_terms.table.gz - 0.4 KB)
+0017.784 (0) Table wpq8Ruf6bs_frm_fields: Total expected rows (approximate): 389
+0017.838 (0) Table wpq8Ruf6bs_frm_fields: Total rows added: 433 in 0.05 seconds
+0017.841 (0) Table wpq8Ruf6bs_frm_fields: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_frm_fields.table.gz - 36.1 KB)
+0017.846 (0) Table wpq8Ruf6bs_frm_forms: Total expected rows (approximate): 26
+0017.856 (0) Table wpq8Ruf6bs_frm_forms: Total rows added: 30 in 0.01 seconds
+0017.857 (0) Table wpq8Ruf6bs_frm_forms: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_frm_forms.table.gz - 11 KB)
+0017.863 (0) Table wpq8Ruf6bs_frm_item_metas: Total expected rows (approximate): 80098
+0026.608 (0) Table wpq8Ruf6bs_frm_item_metas: Total rows added: 100454 in 8.74 seconds
+0026.612 (0) Table wpq8Ruf6bs_frm_item_metas: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_frm_item_metas.table.gz - 864.5 KB)
+0026.617 (0) Table wpq8Ruf6bs_frm_items: Total expected rows (approximate): 3279
+0026.924 (0) Table wpq8Ruf6bs_frm_items: Total rows added: 3381 in 0.31 seconds
+0026.927 (0) Table wpq8Ruf6bs_frm_items: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_frm_items.table.gz - 75.5 KB)
+0026.933 (0) Table wpq8Ruf6bs_groups_capability: Total expected rows (approximate): 94
+0026.940 (0) Table wpq8Ruf6bs_groups_capability: Total rows added: 94 in 0.01 seconds
+0026.942 (0) Table wpq8Ruf6bs_groups_capability: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_groups_capability.table.gz - 1.2 KB)
+0026.947 (0) Table wpq8Ruf6bs_groups_group: Total expected rows (approximate): 6
+0026.952 (0) Table wpq8Ruf6bs_groups_group: Total rows added: 6 in 0.00 seconds
+0026.954 (0) Table wpq8Ruf6bs_groups_group: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_groups_group.table.gz - 0.5 KB)
+0026.974 (0) Table wpq8Ruf6bs_groups_group_capability: Total expected rows (approximate): 27
+0026.981 (0) Table wpq8Ruf6bs_groups_group_capability: Total rows added: 27 in 0.01 seconds
+0026.983 (0) Table wpq8Ruf6bs_groups_group_capability: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_groups_group_capability.table.gz - 0.4 KB)
+0026.988 (0) Table wpq8Ruf6bs_groups_user_capability: Total expected rows (approximate): 0
+0026.993 (0) Table wpq8Ruf6bs_groups_user_capability: Total rows added: 0 in 0.00 seconds
+0026.995 (0) Table wpq8Ruf6bs_groups_user_capability: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_groups_user_capability.table.gz - 0.3 KB)
+0026.999 (0) Table wpq8Ruf6bs_groups_user_group: Total expected rows (approximate): 1604
+0027.028 (0) Table wpq8Ruf6bs_groups_user_group: Total rows added: 1844 in 0.03 seconds
+0027.031 (0) Table wpq8Ruf6bs_groups_user_group: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_groups_user_group.table.gz - 4.5 KB)
+0027.066 (0) Table wpq8Ruf6bs_icl_content_status: Total expected rows (approximate): 0
+0027.073 (0) Table wpq8Ruf6bs_icl_content_status: Total rows added: 0 in 0.00 seconds
+0027.075 (0) Table wpq8Ruf6bs_icl_content_status: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_content_status.table.gz - 0.3 KB)
+0027.100 (0) Table wpq8Ruf6bs_icl_core_status: Total expected rows (approximate): 0
+0027.106 (0) Table wpq8Ruf6bs_icl_core_status: Total rows added: 0 in 0.00 seconds
+0027.108 (0) Table wpq8Ruf6bs_icl_core_status: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_core_status.table.gz - 0.4 KB)
+0027.129 (0) Table wpq8Ruf6bs_icl_flags: Total expected rows (approximate): 64
+0027.137 (0) Table wpq8Ruf6bs_icl_flags: Total rows added: 64 in 0.01 seconds
+0027.139 (0) Table wpq8Ruf6bs_icl_flags: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_flags.table.gz - 0.9 KB)
+0027.144 (0) Table wpq8Ruf6bs_icl_languages: Total expected rows (approximate): 64
+0027.151 (0) Table wpq8Ruf6bs_icl_languages: Total rows added: 64 in 0.01 seconds
+0027.153 (0) Table wpq8Ruf6bs_icl_languages: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_languages.table.gz - 1.5 KB)
+0027.191 (0) Table wpq8Ruf6bs_icl_languages_translations: Total expected rows (approximate): 4109
+0027.336 (0) Table wpq8Ruf6bs_icl_languages_translations: Total rows added: 4096 in 0.14 seconds
+0027.340 (0) Table wpq8Ruf6bs_icl_languages_translations: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_languages_translations.table.gz - 33.9 KB)
+0027.345 (0) Table wpq8Ruf6bs_icl_locale_map: Total expected rows (approximate): 2
+0027.349 (0) Table wpq8Ruf6bs_icl_locale_map: Total rows added: 2 in 0.00 seconds
+0027.351 (0) Table wpq8Ruf6bs_icl_locale_map: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_locale_map.table.gz - 0.3 KB)
+0027.384 (0) Table wpq8Ruf6bs_icl_message_status: Total expected rows (approximate): 0
+0027.390 (0) Table wpq8Ruf6bs_icl_message_status: Total rows added: 0 in 0.00 seconds
+0027.391 (0) Table wpq8Ruf6bs_icl_message_status: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_message_status.table.gz - 0.4 KB)
+0027.412 (0) Table wpq8Ruf6bs_icl_node: Total expected rows (approximate): 0
+0027.418 (0) Table wpq8Ruf6bs_icl_node: Total rows added: 0 in 0.00 seconds
+0027.420 (0) Table wpq8Ruf6bs_icl_node: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_node.table.gz - 0.3 KB)
+0027.447 (0) Table wpq8Ruf6bs_icl_reminders: Total expected rows (approximate): 0
+0027.454 (0) Table wpq8Ruf6bs_icl_reminders: Total rows added: 0 in 0.01 seconds
+0027.455 (0) Table wpq8Ruf6bs_icl_reminders: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_reminders.table.gz - 0.3 KB)
+0027.474 (0) Table wpq8Ruf6bs_icl_string_packages: Total expected rows (approximate): 0
+0027.480 (0) Table wpq8Ruf6bs_icl_string_packages: Total rows added: 0 in 0.00 seconds
+0027.482 (0) Table wpq8Ruf6bs_icl_string_packages: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_string_packages.table.gz - 0.4 KB)
+0027.504 (0) Table wpq8Ruf6bs_icl_string_positions: Total expected rows (approximate): 756
+0027.527 (0) Table wpq8Ruf6bs_icl_string_positions: Total rows added: 737 in 0.02 seconds
+0027.529 (0) Table wpq8Ruf6bs_icl_string_positions: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_string_positions.table.gz - 7.4 KB)
+0027.554 (0) Table wpq8Ruf6bs_icl_string_status: Total expected rows (approximate): 0
+0027.559 (0) Table wpq8Ruf6bs_icl_string_status: Total rows added: 0 in 0.00 seconds
+0027.560 (0) Table wpq8Ruf6bs_icl_string_status: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_string_status.table.gz - 0.4 KB)
+0027.564 (0) Table wpq8Ruf6bs_icl_string_translations: Total expected rows (approximate): 0
+0027.569 (0) Table wpq8Ruf6bs_icl_string_translations: Total rows added: 0 in 0.00 seconds
+0027.570 (0) Table wpq8Ruf6bs_icl_string_translations: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_string_translations.table.gz - 0.4 KB)
+0027.574 (0) Table wpq8Ruf6bs_icl_strings: Total expected rows (approximate): 603
+0027.620 (0) Table wpq8Ruf6bs_icl_strings: Total rows added: 610 in 0.05 seconds
+0027.623 (0) Table wpq8Ruf6bs_icl_strings: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_strings.table.gz - 42.6 KB)
+0027.654 (0) Table wpq8Ruf6bs_icl_translate: Total expected rows (approximate): 0
+0027.663 (0) Table wpq8Ruf6bs_icl_translate: Total rows added: 0 in 0.01 seconds
+0027.665 (0) Table wpq8Ruf6bs_icl_translate: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_translate.table.gz - 0.4 KB)
+0027.690 (0) Table wpq8Ruf6bs_icl_translate_job: Total expected rows (approximate): 0
+0027.694 (0) Table wpq8Ruf6bs_icl_translate_job: Total rows added: 0 in 0.00 seconds
+0027.695 (0) Table wpq8Ruf6bs_icl_translate_job: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_translate_job.table.gz - 0.4 KB)
+0027.715 (0) Table wpq8Ruf6bs_icl_translation_batches: Total expected rows (approximate): 0
+0027.719 (0) Table wpq8Ruf6bs_icl_translation_batches: Total rows added: 0 in 0.00 seconds
+0027.721 (0) Table wpq8Ruf6bs_icl_translation_batches: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_translation_batches.table.gz - 0.3 KB)
+0027.725 (0) Table wpq8Ruf6bs_icl_translation_status: Total expected rows (approximate): 0
+0027.730 (0) Table wpq8Ruf6bs_icl_translation_status: Total rows added: 0 in 0.00 seconds
+0027.731 (0) Table wpq8Ruf6bs_icl_translation_status: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_translation_status.table.gz - 0.5 KB)
+0027.735 (0) Table wpq8Ruf6bs_icl_translations: Total expected rows (approximate): 55
+0027.743 (0) Table wpq8Ruf6bs_icl_translations: Total rows added: 55 in 0.01 seconds
+0027.745 (0) Table wpq8Ruf6bs_icl_translations: finishing file (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_translations.table.gz - 1 KB)
+0027.749 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_options.table.gz (1/40): adding to final database dump
+0027.879 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_users.table.gz (2/40): adding to final database dump
+0027.899 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_usermeta.table.gz (3/40): adding to final database dump
+0028.077 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_commentmeta.table.gz (4/40): adding to final database dump
+0028.079 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_comments.table.gz (5/40): adding to final database dump
+0028.081 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_links.table.gz (6/40): adding to final database dump
+0028.082 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_postmeta.table.gz (7/40): adding to final database dump
+0028.087 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_posts.table.gz (8/40): adding to final database dump
+0028.095 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_term_relationships.table.gz (9/40): adding to final database dump
+0028.097 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_term_taxonomy.table.gz (10/40): adding to final database dump
+0028.099 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_termmeta.table.gz (11/40): adding to final database dump
+0028.101 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_terms.table.gz (12/40): adding to final database dump
+0028.102 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_frm_fields.table.gz (13/40): adding to final database dump
+0028.132 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_frm_forms.table.gz (14/40): adding to final database dump
+0028.140 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_frm_item_metas.table.gz (15/40): adding to final database dump
+0029.020 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_frm_items.table.gz (16/40): adding to final database dump
+0029.074 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_groups_capability.table.gz (17/40): adding to final database dump
+0029.079 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_groups_group.table.gz (18/40): adding to final database dump
+0029.080 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_groups_group_capability.table.gz (19/40): adding to final database dump
+0029.082 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_groups_user_capability.table.gz (20/40): adding to final database dump
+0029.083 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_groups_user_group.table.gz (21/40): adding to final database dump
+0029.092 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_content_status.table.gz (22/40): adding to final database dump
+0029.094 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_core_status.table.gz (23/40): adding to final database dump
+0029.095 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_flags.table.gz (24/40): adding to final database dump
+0029.097 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_languages.table.gz (25/40): adding to final database dump
+0029.099 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_languages_translations.table.gz (26/40): adding to final database dump
+0029.129 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_locale_map.table.gz (27/40): adding to final database dump
+0029.131 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_message_status.table.gz (28/40): adding to final database dump
+0029.132 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_node.table.gz (29/40): adding to final database dump
+0029.135 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_reminders.table.gz (30/40): adding to final database dump
+0029.136 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_string_packages.table.gz (31/40): adding to final database dump
+0029.137 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_string_positions.table.gz (32/40): adding to final database dump
+0029.144 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_string_status.table.gz (33/40): adding to final database dump
+0029.146 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_string_translations.table.gz (34/40): adding to final database dump
+0029.148 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_strings.table.gz (35/40): adding to final database dump
+0029.160 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_translate.table.gz (36/40): adding to final database dump
+0029.163 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_translate_job.table.gz (37/40): adding to final database dump
+0029.164 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_translation_batches.table.gz (38/40): adding to final database dump
+0029.165 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_translation_status.table.gz (39/40): adding to final database dump
+0029.166 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db-table-wpq8Ruf6bs_icl_translations.table.gz (40/40): adding to final database dump
+0029.168 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db.gz: finished writing out complete database file (1712 KB)
+0029.188 (0) Total database tables backed up: 40 (backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db.gz, size: 1766614, checksum (SHA1): c6075ec3f9dc3e877dd5ac02d564c7fe4ffe992d)
+0029.204 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0029.205 (0) backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db.gz: db: This file has not yet been successfully uploaded: will queue
+0029.206 (0) Saving backup history. Total backup size: 20.5 MB
+0029.211 (0) Requesting upload of the files that have not yet been successfully uploaded (2)
+0029.214 (0) Cloud backup selection (1/1): none (last)
+0029.215 (0) No remote despatch: user chose no remote backup service
+0029.218 (0) Recording as successfully uploaded: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-plugins.zip (c7438e3e88b7a5569d8fbd98e810f245)
+0029.224 (0) Recording as successfully uploaded: backup_2016-12-29-1448_UW_MESA_Portal_c32864af723d-db.gz (96146ce130f1f1dea2a53f4cbe57d14e)
+0029.230 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0029.232 (0) Number of backup sets in history: 15; groups (db): 1
+0029.233 (0) Examining (for databases) backup set with group_id=0, nonce=c32864af723d, datestamp=1483051716 (Dec 29 2016 22:48:36)
+0029.234 (0) This backup set is the backup set just made, so will not be deleted.
+0029.235 (0) Examining (for databases) backup set with group_id=0, nonce=84b3271cedd8, datestamp=1481052028 (Dec 06 2016 19:20:28)
+0029.236 (0) This backup set (1481052028) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0029.237 (0) Examining (for databases) backup set with group_id=0, nonce=32287c13f9c6, datestamp=1478108379 (Nov 02 2016 17:39:39)
+0029.238 (0) Examining (for databases) backup set with group_id=0, nonce=68f0b61bd8a7, datestamp=1477212642 (Oct 23 2016 08:50:42)
+0029.239 (0) This backup set (1477212642) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0029.240 (0) Examining (for databases) backup set with group_id=0, nonce=20519d78c01a, datestamp=1476046640 (Oct 09 2016 20:57:20)
+0029.241 (0) This backup set (1476046640) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0029.242 (0) Examining (for databases) backup set with group_id=0, nonce=9e433fd72e0f, datestamp=1476005147 (Oct 09 2016 09:25:47)
+0029.243 (0) This backup set (1476005147) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0029.244 (0) Examining (for databases) backup set with group_id=0, nonce=2f3cda097114, datestamp=1475961239 (Oct 08 2016 21:13:59)
+0029.245 (0) This backup set (1475961239) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0029.246 (0) Examining (for databases) backup set with group_id=0, nonce=e928d8546e5c, datestamp=1474137583 (Sep 17 2016 18:39:43)
+0029.248 (0) This backup set (1474137583) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0029.249 (0) Examining (for databases) backup set with group_id=0, nonce=a0415f8e4a0d, datestamp=1455898970 (Feb 19 2016 16:22:50)
+0029.250 (0) This backup set (1455898970) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0029.251 (0) Examining (for databases) backup set with group_id=0, nonce=e4b236fbf959, datestamp=1455828320 (Feb 18 2016 20:45:20)
+0029.252 (0) This backup set (1455828320) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0029.253 (0) Examining (for databases) backup set with group_id=0, nonce=3668d7ec99b2, datestamp=1455818627 (Feb 18 2016 18:03:47)
+0029.254 (0) This backup set (1455818627) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0029.255 (0) Examining (for databases) backup set with group_id=0, nonce=dd49f50e49e4, datestamp=1455559646 (Feb 15 2016 18:07:26)
+0029.256 (0) This backup set (1455559646) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0029.257 (0) Examining (for databases) backup set with group_id=0, nonce=bf5d5659b044, datestamp=1454504638 (Feb 03 2016 13:03:58)
+0029.259 (0) This backup set (1454504638) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0029.260 (0) Examining (for databases) backup set with group_id=0, nonce=e31c4eb40231, datestamp=1454436431 (Feb 02 2016 18:07:11)
+0029.261 (0) This backup set (1454436431) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0029.262 (0) Examining (for databases) backup set with group_id=0, nonce=2c2fd71583c1, datestamp=1453646214 (Jan 24 2016 14:36:54)
+0029.263 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0029.264 (0) Number of backup sets in history: 15; groups (files): 1
+0029.265 (0) Examining (for files) backup set with nonce=c32864af723d, datestamp=1483051716 (Dec 29 2016 22:48:36)
+0029.266 (0) This backup set is the backup set just made, so will not be deleted.
+0029.266 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0029.267 (0) Examining (for files) backup set with nonce=84b3271cedd8, datestamp=1481052028 (Dec 06 2016 19:20:28)
+0029.268 (0) This backup set (1481052028) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0029.269 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0029.271 (0) Examining (for files) backup set with nonce=32287c13f9c6, datestamp=1478108379 (Nov 02 2016 17:39:39)
+0029.271 (0) This backup set (1478108379) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0029.272 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0029.273 (0) Examining (for files) backup set with nonce=68f0b61bd8a7, datestamp=1477212642 (Oct 23 2016 08:50:42)
+0029.274 (0) This backup set (1477212642) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0029.275 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0029.276 (0) Examining (for files) backup set with nonce=20519d78c01a, datestamp=1476046640 (Oct 09 2016 20:57:20)
+0029.277 (0) This backup set (1476046640) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0029.278 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0029.279 (0) Examining (for files) backup set with nonce=9e433fd72e0f, datestamp=1476005147 (Oct 09 2016 09:25:47)
+0029.280 (0) This backup set (1476005147) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0029.281 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0029.282 (0) Examining (for files) backup set with nonce=2f3cda097114, datestamp=1475961239 (Oct 08 2016 21:13:59)
+0029.283 (0) This backup set (1475961239) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0029.284 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0029.286 (0) Examining (for files) backup set with nonce=e928d8546e5c, datestamp=1474137583 (Sep 17 2016 18:39:43)
+0029.287 (0) This backup set (1474137583) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0029.288 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0029.289 (0) Examining (for files) backup set with nonce=a0415f8e4a0d, datestamp=1455898970 (Feb 19 2016 16:22:50)
+0029.290 (0) This backup set (1455898970) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0029.291 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0029.292 (0) Examining (for files) backup set with nonce=e4b236fbf959, datestamp=1455828320 (Feb 18 2016 20:45:20)
+0029.293 (0) This backup set (1455828320) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0029.294 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0029.295 (0) Examining (for files) backup set with nonce=3668d7ec99b2, datestamp=1455818627 (Feb 18 2016 18:03:47)
+0029.296 (0) This backup set (1455818627) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0029.297 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0029.298 (0) Examining (for files) backup set with nonce=dd49f50e49e4, datestamp=1455559646 (Feb 15 2016 18:07:26)
+0029.299 (0) This backup set (1455559646) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0029.300 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0029.301 (0) Examining (for files) backup set with nonce=bf5d5659b044, datestamp=1454504638 (Feb 03 2016 13:03:58)
+0029.302 (0) This backup set (1454504638) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0029.303 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0029.304 (0) Examining (for files) backup set with nonce=e31c4eb40231, datestamp=1454436431 (Feb 02 2016 18:07:11)
+0029.306 (0) This backup set (1454436431) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0029.307 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0029.308 (0) Examining (for files) backup set with nonce=2c2fd71583c1, datestamp=1453646214 (Jan 24 2016 14:36:54)
+0029.309 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0029.310 (0) Retain: saving new backup history (sets now: 15) and finishing retain operation
+0029.314 (0) Resume backup (c32864af723d, 0): finish run
+0029.317 (0) Decremented the semaphore (fd) by 1
+0029.319 (0) Semaphore (fd) unlocked
+0029.320 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0029.324 (0) No email will/can be sent - the user has not configured an email address.
+0029.325 (0) The backup apparently succeeded and is now complete

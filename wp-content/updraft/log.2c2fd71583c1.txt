@@ -1,0 +1,4 @@
+0000.000 (1) Opened log file at time: Sun, 24 Jan 2016 15:15:50 +0000 on http://mesaportal.com
+0000.001 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.21.22 WP: 4.4.1 PHP: 5.4.45 (Linux serv01.c15692.sgvps.net 3.12.18-clouder0 #1 SMP Wed Jan 20 00:00:07 EET 2016 x86_64) MySQL: 5.5.31 Server: Apache/2.2.24 (Unix) mod_hive/5.0 mod_ssl/2.2.24 OpenSSL/1.0.0-fips mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635 mod_fastcgi/2.4.6 mod_fcgid/2.3.6 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 42.5M | 43M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.011 (1) Free space on disk containing Updraft's temporary directory: 28562.1 Mb
+0000.012 (1) This backup task is either complete or began over 2 days ago: ending (1453648550.0793, )

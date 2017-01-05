@@ -1,0 +1,239 @@
+0000.001 (0) Opened log file at time: Tue, 02 Feb 2016 18:07:11 +0000 on http://mesaportal.com
+0000.056 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.21.22 WP: 4.4.1 PHP: 5.4.45 (Linux serv01.c15692.sgvps.net 3.12.18-clouder0 #1 SMP Wed Jan 20 00:00:07 EET 2016 x86_64) MySQL: 5.5.31 Server: Apache/2.2.24 (Unix) mod_hive/5.0 mod_ssl/2.2.24 OpenSSL/1.0.0-fips mod_auth_passthrough/2.1 mod_bwlimited/1.4 mod_fastcgi/2.4.6 mod_fcgid/2.3.6 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 46.7M | 47.3M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.106 (0) Free space on disk containing Updraft's temporary directory: 26814.8 Mb
+0000.141 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.174 (0) Requesting semaphore lock (fd)
+0000.193 (0) Semaphore (fd) was stuck, set lock time to 2016-02-02 18:07:11
+0000.209 (0) Semaphore (fd) reset to 1
+0000.228 (0) Set semaphore last lock (fd) time to 2016-02-02 18:07:11
+0000.245 (0) Semaphore lock (fd) complete
+0000.314 (0) Backup run: resumption=0, nonce=e31c4eb40231, begun at=1454436431 (0s ago), job type=backup, label=Automatic backup before update
+0000.346 (0) A resumption will be scheduled for the cloud backup stage
+0000.362 (0) Scheduling a resumption (1) after 300 seconds (1454436731) in case this run gets aborted
+0000.411 (0) Checking if we have a zip executable available
+0000.427 (0) Testing: /usr/bin/zip
+0000.451 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.467 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.483 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=128) (out=105) (deflated 18%)
+0000.501 (0) Output: total bytes=128, compressed=105 -> 18% savings
+0000.523 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=135) (out=111) (deflated 18%)
+0000.540 (0) Output: total bytes=263, compressed=216 -> 18% savings
+0000.556 (0) Stderr output: 
+0000.573 (0) Stderr output: 
+0000.573 (0) Stderr output: 
+0000.580 (0) Working binary zip found: /usr/bin/zip
+0000.613 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.629 (0) Creation of backups of directories: beginning
+0000.661 (0) No backup of plugins: excluded by user's options
+0000.677 (0) No backup of themes: excluded by user's options
+0000.693 (0) No backup of uploads: excluded by user's options
+0000.725 (0) Beginning creation of dump of wpcore (split every: 500 Mb)
+0000.797 (0) Total entities for the zip file: 93 directories, 1123 files (0 skipped as non-modified), 17.1 Mb
+0000.817 (0) Zip: backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-wpcore.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0000.834 (0) Zip: backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-wpcore.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0000.851 (0) Zip: backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-wpcore.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0000.869 (0) Zip: backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-wpcore.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0000.887 (0) Zip: backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-wpcore.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0000.902 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 Mb, 1123 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0001.314 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-wpcore.zip.tmp: size is now: 1.90 Mb
+0001.354 (0) Zip: backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-wpcore.zip.tmp: 600 files added (on-disk size: 1937.5 Kb)
+0001.372 (0) Zip: backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-wpcore.zip.tmp: 700 files added (on-disk size: 1937.5 Kb)
+0001.389 (0) Zip: backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-wpcore.zip.tmp: 800 files added (on-disk size: 1937.5 Kb)
+0001.410 (0) Zip: backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-wpcore.zip.tmp: 900 files added (on-disk size: 1937.5 Kb)
+0001.427 (0) Zip: backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-wpcore.zip.tmp: 1000 files added (on-disk size: 1937.5 Kb)
+0001.443 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.9 Mb, 1123 files batched, 501 (1002) added so far); re-opening (prior size: 1937.5 Kb)
+0001.887 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-wpcore.zip.tmp: size is now: 4.50 Mb
+0001.925 (0) Zip: backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-wpcore.zip.tmp: 1100 files added (on-disk size: 4572.3 Kb)
+0002.135 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-wpcore.zip.tmp: size is now: 5.40 Mb
+0002.204 (0) Created wpcore zip (0) - 5532.6 Kb in 1.5 s (3813.7 Kb/s) (SHA1 checksum: c335ce45e5be495b601ada3563e4d43d1d31859a)
+0002.221 (0) No backup of others: excluded by user's options
+0002.238 (0) No backup of more: excluded by user's options
+0002.309 (0) Saving backup status to database (elements: 2)
+0002.345 (0) Beginning creation of database dump (WordPress DB)
+0002.383 (0) Testing: /usr/bin/mysqldump
+0002.427 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0002.492 (0) Table wpq8Ruf6bs_options: Total expected rows (approximate): 169
+0002.608 (0) Table wpq8Ruf6bs_options: Total rows added: 351 in 0.10 seconds
+0002.625 (0) Table wpq8Ruf6bs_options: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_options.table.gz - 358.2 Kb)
+0002.697 (0) Table wpq8Ruf6bs_users: Total expected rows (approximate): 80
+0002.728 (0) Table wpq8Ruf6bs_users: Total rows added: 80 in 0.01 seconds
+0002.752 (0) Table wpq8Ruf6bs_users: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_users.table.gz - 5.9 Kb)
+0002.869 (0) Table wpq8Ruf6bs_usermeta: Total expected rows (approximate): 2262
+0002.918 (0) Table wpq8Ruf6bs_usermeta: Total rows added: 1937 in 0.03 seconds
+0002.935 (0) Table wpq8Ruf6bs_usermeta: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_usermeta.table.gz - 18.6 Kb)
+0002.987 (0) Table wpq8Ruf6bs_commentmeta: Total expected rows (approximate): 0
+0003.004 (0) Table wpq8Ruf6bs_commentmeta: Total rows added: 0 in 0.00 seconds
+0003.021 (0) Table wpq8Ruf6bs_commentmeta: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_commentmeta.table.gz - 0.4 Kb)
+0003.076 (0) Table wpq8Ruf6bs_comments: Total expected rows (approximate): 0
+0003.094 (0) Table wpq8Ruf6bs_comments: Total rows added: 0 in 0.00 seconds
+0003.112 (0) Table wpq8Ruf6bs_comments: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_comments.table.gz - 0.5 Kb)
+0003.178 (0) Table wpq8Ruf6bs_links: Total expected rows (approximate): 0
+0003.204 (0) Table wpq8Ruf6bs_links: Total rows added: 0 in 0.00 seconds
+0003.228 (0) Table wpq8Ruf6bs_links: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_links.table.gz - 0.4 Kb)
+0003.281 (0) Table wpq8Ruf6bs_postmeta: Total expected rows (approximate): 153
+0003.300 (0) Table wpq8Ruf6bs_postmeta: Total rows added: 153 in 0.00 seconds
+0003.316 (0) Table wpq8Ruf6bs_postmeta: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_postmeta.table.gz - 2.2 Kb)
+0003.396 (0) Table wpq8Ruf6bs_posts: Total expected rows (approximate): 65
+0003.423 (0) Table wpq8Ruf6bs_posts: Total rows added: 85 in 0.01 seconds
+0003.439 (0) Table wpq8Ruf6bs_posts: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_posts.table.gz - 8.4 Kb)
+0003.530 (0) Table wpq8Ruf6bs_term_relationships: Total expected rows (approximate): 12
+0003.556 (0) Table wpq8Ruf6bs_term_relationships: Total rows added: 12 in 0.00 seconds
+0003.572 (0) Table wpq8Ruf6bs_term_relationships: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_term_relationships.table.gz - 0.4 Kb)
+0003.704 (0) Table wpq8Ruf6bs_term_taxonomy: Total expected rows (approximate): 4
+0003.748 (0) Table wpq8Ruf6bs_term_taxonomy: Total rows added: 4 in 0.00 seconds
+0003.809 (0) Table wpq8Ruf6bs_term_taxonomy: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_term_taxonomy.table.gz - 0.5 Kb)
+0004.007 (0) Table wpq8Ruf6bs_termmeta: Total expected rows (approximate): 0
+0004.097 (0) Table wpq8Ruf6bs_termmeta: Total rows added: 0 in 0.00 seconds
+0004.159 (0) Table wpq8Ruf6bs_termmeta: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_termmeta.table.gz - 0.4 Kb)
+0004.398 (0) Table wpq8Ruf6bs_terms: Total expected rows (approximate): 4
+0004.420 (0) Table wpq8Ruf6bs_terms: Total rows added: 4 in 0.00 seconds
+0004.470 (0) Table wpq8Ruf6bs_terms: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_terms.table.gz - 0.4 Kb)
+0004.594 (0) Table wpq8Ruf6bs_frm_fields: Total expected rows (approximate): 221
+0004.701 (0) Table wpq8Ruf6bs_frm_fields: Total rows added: 313 in 0.06 seconds
+0004.756 (0) Table wpq8Ruf6bs_frm_fields: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_frm_fields.table.gz - 23.6 Kb)
+0004.809 (0) Table wpq8Ruf6bs_frm_forms: Total expected rows (approximate): 17
+0004.838 (0) Table wpq8Ruf6bs_frm_forms: Total rows added: 23 in 0.01 seconds
+0004.854 (0) Table wpq8Ruf6bs_frm_forms: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_frm_forms.table.gz - 6.9 Kb)
+0004.918 (0) Table wpq8Ruf6bs_frm_item_metas: Total expected rows (approximate): 8130
+0004.988 (0) Table wpq8Ruf6bs_frm_item_metas: binary mysqldump finished (writes: 33) in 0.05 seconds
+0005.012 (0) Table wpq8Ruf6bs_frm_item_metas: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_frm_item_metas.table.gz - 70.6 Kb)
+0005.064 (0) Table wpq8Ruf6bs_frm_items: Total expected rows (approximate): 864
+0005.123 (0) Table wpq8Ruf6bs_frm_items: Total rows added: 995 in 0.04 seconds
+0005.140 (0) Table wpq8Ruf6bs_frm_items: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_frm_items.table.gz - 17.5 Kb)
+0005.188 (0) Table wpq8Ruf6bs_groups_capability: Total expected rows (approximate): 93
+0005.206 (0) Table wpq8Ruf6bs_groups_capability: Total rows added: 93 in 0.00 seconds
+0005.222 (0) Table wpq8Ruf6bs_groups_capability: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_groups_capability.table.gz - 1.2 Kb)
+0005.270 (0) Table wpq8Ruf6bs_groups_group: Total expected rows (approximate): 6
+0005.287 (0) Table wpq8Ruf6bs_groups_group: Total rows added: 6 in 0.00 seconds
+0005.306 (0) Table wpq8Ruf6bs_groups_group: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_groups_group.table.gz - 0.5 Kb)
+0005.354 (0) Table wpq8Ruf6bs_groups_group_capability: Total expected rows (approximate): 26
+0005.372 (0) Table wpq8Ruf6bs_groups_group_capability: Total rows added: 26 in 0.00 seconds
+0005.387 (0) Table wpq8Ruf6bs_groups_group_capability: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_groups_group_capability.table.gz - 0.4 Kb)
+0005.438 (0) Table wpq8Ruf6bs_groups_user_capability: Total expected rows (approximate): 0
+0005.454 (0) Table wpq8Ruf6bs_groups_user_capability: Total rows added: 0 in 0.00 seconds
+0005.469 (0) Table wpq8Ruf6bs_groups_user_capability: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_groups_user_capability.table.gz - 0.3 Kb)
+0005.518 (0) Table wpq8Ruf6bs_groups_user_group: Total expected rows (approximate): 160
+0005.537 (0) Table wpq8Ruf6bs_groups_user_group: Total rows added: 160 in 0.00 seconds
+0005.596 (0) Table wpq8Ruf6bs_groups_user_group: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_groups_user_group.table.gz - 0.7 Kb)
+0005.651 (0) Table wpq8Ruf6bs_icl_content_status: Total expected rows (approximate): 0
+0005.671 (0) Table wpq8Ruf6bs_icl_content_status: Total rows added: 0 in 0.00 seconds
+0005.687 (0) Table wpq8Ruf6bs_icl_content_status: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_content_status.table.gz - 0.3 Kb)
+0005.736 (0) Table wpq8Ruf6bs_icl_core_status: Total expected rows (approximate): 0
+0005.753 (0) Table wpq8Ruf6bs_icl_core_status: Total rows added: 0 in 0.00 seconds
+0005.768 (0) Table wpq8Ruf6bs_icl_core_status: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_core_status.table.gz - 0.4 Kb)
+0005.817 (0) Table wpq8Ruf6bs_icl_flags: Total expected rows (approximate): 64
+0005.836 (0) Table wpq8Ruf6bs_icl_flags: Total rows added: 64 in 0.00 seconds
+0005.852 (0) Table wpq8Ruf6bs_icl_flags: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_flags.table.gz - 0.9 Kb)
+0005.901 (0) Table wpq8Ruf6bs_icl_languages: Total expected rows (approximate): 64
+0005.920 (0) Table wpq8Ruf6bs_icl_languages: Total rows added: 64 in 0.00 seconds
+0005.936 (0) Table wpq8Ruf6bs_icl_languages: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_languages.table.gz - 1.5 Kb)
+0005.985 (0) Table wpq8Ruf6bs_icl_languages_translations: Total expected rows (approximate): 4003
+0006.075 (0) Table wpq8Ruf6bs_icl_languages_translations: Total rows added: 4096 in 0.07 seconds
+0006.091 (0) Table wpq8Ruf6bs_icl_languages_translations: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_languages_translations.table.gz - 33.9 Kb)
+0006.141 (0) Table wpq8Ruf6bs_icl_locale_map: Total expected rows (approximate): 2
+0006.167 (0) Table wpq8Ruf6bs_icl_locale_map: Total rows added: 2 in 0.00 seconds
+0006.191 (0) Table wpq8Ruf6bs_icl_locale_map: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_locale_map.table.gz - 0.3 Kb)
+0006.247 (0) Table wpq8Ruf6bs_icl_message_status: Total expected rows (approximate): 0
+0006.270 (0) Table wpq8Ruf6bs_icl_message_status: Total rows added: 0 in 0.00 seconds
+0006.286 (0) Table wpq8Ruf6bs_icl_message_status: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_message_status.table.gz - 0.4 Kb)
+0006.335 (0) Table wpq8Ruf6bs_icl_node: Total expected rows (approximate): 0
+0006.360 (0) Table wpq8Ruf6bs_icl_node: Total rows added: 0 in 0.00 seconds
+0006.381 (0) Table wpq8Ruf6bs_icl_node: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_node.table.gz - 0.3 Kb)
+0006.430 (0) Table wpq8Ruf6bs_icl_reminders: Total expected rows (approximate): 0
+0006.447 (0) Table wpq8Ruf6bs_icl_reminders: Total rows added: 0 in 0.00 seconds
+0006.463 (0) Table wpq8Ruf6bs_icl_reminders: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_reminders.table.gz - 0.3 Kb)
+0006.512 (0) Table wpq8Ruf6bs_icl_string_packages: Total expected rows (approximate): 0
+0006.529 (0) Table wpq8Ruf6bs_icl_string_packages: Total rows added: 0 in 0.00 seconds
+0006.546 (0) Table wpq8Ruf6bs_icl_string_packages: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_string_packages.table.gz - 0.4 Kb)
+0006.595 (0) Table wpq8Ruf6bs_icl_string_positions: Total expected rows (approximate): 754
+0006.624 (0) Table wpq8Ruf6bs_icl_string_positions: Total rows added: 711 in 0.01 seconds
+0006.640 (0) Table wpq8Ruf6bs_icl_string_positions: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_string_positions.table.gz - 7.1 Kb)
+0006.689 (0) Table wpq8Ruf6bs_icl_string_status: Total expected rows (approximate): 0
+0006.710 (0) Table wpq8Ruf6bs_icl_string_status: Total rows added: 0 in 0.00 seconds
+0006.732 (0) Table wpq8Ruf6bs_icl_string_status: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_string_status.table.gz - 0.4 Kb)
+0006.792 (0) Table wpq8Ruf6bs_icl_string_translations: Total expected rows (approximate): 0
+0006.812 (0) Table wpq8Ruf6bs_icl_string_translations: Total rows added: 0 in 0.00 seconds
+0006.828 (0) Table wpq8Ruf6bs_icl_string_translations: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_string_translations.table.gz - 0.4 Kb)
+0006.878 (0) Table wpq8Ruf6bs_icl_strings: Total expected rows (approximate): 638
+0006.919 (0) Table wpq8Ruf6bs_icl_strings: Total rows added: 531 in 0.02 seconds
+0006.937 (0) Table wpq8Ruf6bs_icl_strings: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_strings.table.gz - 37.2 Kb)
+0006.989 (0) Table wpq8Ruf6bs_icl_translate: Total expected rows (approximate): 0
+0007.007 (0) Table wpq8Ruf6bs_icl_translate: Total rows added: 0 in 0.00 seconds
+0007.022 (0) Table wpq8Ruf6bs_icl_translate: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_translate.table.gz - 0.4 Kb)
+0007.074 (0) Table wpq8Ruf6bs_icl_translate_job: Total expected rows (approximate): 0
+0007.091 (0) Table wpq8Ruf6bs_icl_translate_job: Total rows added: 0 in 0.00 seconds
+0007.108 (0) Table wpq8Ruf6bs_icl_translate_job: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_translate_job.table.gz - 0.4 Kb)
+0007.157 (0) Table wpq8Ruf6bs_icl_translation_batches: Total expected rows (approximate): 0
+0007.174 (0) Table wpq8Ruf6bs_icl_translation_batches: Total rows added: 0 in 0.00 seconds
+0007.190 (0) Table wpq8Ruf6bs_icl_translation_batches: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_translation_batches.table.gz - 0.3 Kb)
+0007.242 (0) Table wpq8Ruf6bs_icl_translation_status: Total expected rows (approximate): 0
+0007.259 (0) Table wpq8Ruf6bs_icl_translation_status: Total rows added: 0 in 0.00 seconds
+0007.290 (0) Table wpq8Ruf6bs_icl_translation_status: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_translation_status.table.gz - 0.5 Kb)
+0007.340 (0) Table wpq8Ruf6bs_icl_translations: Total expected rows (approximate): 34
+0007.357 (0) Table wpq8Ruf6bs_icl_translations: Total rows added: 34 in 0.00 seconds
+0007.373 (0) Table wpq8Ruf6bs_icl_translations: finishing file (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_translations.table.gz - 0.8 Kb)
+0007.426 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_options.table.gz (1/40): adding to final database dump
+0007.530 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_users.table.gz (2/40): adding to final database dump
+0007.547 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_usermeta.table.gz (3/40): adding to final database dump
+0007.571 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_commentmeta.table.gz (4/40): adding to final database dump
+0007.591 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_comments.table.gz (5/40): adding to final database dump
+0007.607 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_links.table.gz (6/40): adding to final database dump
+0007.623 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_postmeta.table.gz (7/40): adding to final database dump
+0007.643 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_posts.table.gz (8/40): adding to final database dump
+0007.663 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_term_relationships.table.gz (9/40): adding to final database dump
+0007.679 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_term_taxonomy.table.gz (10/40): adding to final database dump
+0007.695 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_termmeta.table.gz (11/40): adding to final database dump
+0007.711 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_terms.table.gz (12/40): adding to final database dump
+0007.727 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_frm_fields.table.gz (13/40): adding to final database dump
+0007.756 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_frm_forms.table.gz (14/40): adding to final database dump
+0007.774 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_frm_item_metas.table.gz (15/40): adding to final database dump
+0007.817 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_frm_items.table.gz (16/40): adding to final database dump
+0007.841 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_groups_capability.table.gz (17/40): adding to final database dump
+0007.861 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_groups_group.table.gz (18/40): adding to final database dump
+0007.878 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_groups_group_capability.table.gz (19/40): adding to final database dump
+0007.894 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_groups_user_capability.table.gz (20/40): adding to final database dump
+0007.910 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_groups_user_group.table.gz (21/40): adding to final database dump
+0007.927 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_content_status.table.gz (22/40): adding to final database dump
+0007.946 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_core_status.table.gz (23/40): adding to final database dump
+0007.970 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_flags.table.gz (24/40): adding to final database dump
+0007.995 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_languages.table.gz (25/40): adding to final database dump
+0008.020 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_languages_translations.table.gz (26/40): adding to final database dump
+0008.058 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_locale_map.table.gz (27/40): adding to final database dump
+0008.074 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_message_status.table.gz (28/40): adding to final database dump
+0008.091 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_node.table.gz (29/40): adding to final database dump
+0008.107 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_reminders.table.gz (30/40): adding to final database dump
+0008.127 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_string_packages.table.gz (31/40): adding to final database dump
+0008.186 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_string_positions.table.gz (32/40): adding to final database dump
+0008.205 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_string_status.table.gz (33/40): adding to final database dump
+0008.221 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_string_translations.table.gz (34/40): adding to final database dump
+0008.237 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_strings.table.gz (35/40): adding to final database dump
+0008.272 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_translate.table.gz (36/40): adding to final database dump
+0008.296 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_translate_job.table.gz (37/40): adding to final database dump
+0008.316 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_translation_batches.table.gz (38/40): adding to final database dump
+0008.332 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_translation_status.table.gz (39/40): adding to final database dump
+0008.349 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db-table-wpq8Ruf6bs_icl_translations.table.gz (40/40): adding to final database dump
+0008.371 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db.gz: finished writing out complete database file (592 Kb)
+0008.425 (0) Total database tables backed up: 40 (backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db.gz, size: 612309, checksum (SHA1): 36155ff3a0629454cf93aacf71f56634f1e0b4d9)
+0008.458 (0) Saving backup history
+0008.509 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+0008.525 (0) backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db.gz: db: This file has not yet been successfully uploaded: will queue
+0008.558 (0) Requesting upload of the files that have not yet been successfully uploaded (2)
+0008.606 (0) Cloud backup selection (1/1): none (last)
+0008.623 (0) No remote despatch: user chose no remote backup service
+0008.670 (0) Recording as successfully uploaded: backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-wpcore.zip (4d355220bbb0e31ed61f960f24e5fd5e)
+0008.766 (0) Recording as successfully uploaded: backup_2016-02-02-1007_UW_MESA_Portal_e31c4eb40231-db.gz (de8223b38f74ba508bd33aed30ad1b65)
+0008.841 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0008.860 (0) Number of backup sets in history: 2
+0008.878 (0) Examining backup set with datestamp: 1454436431 (Feb 02 2016 18:07:11)
+0008.894 (0) This backup set (1454436431) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0008.913 (0) This backup set (1454436431) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0008.914 (0) 1454436431: this backup set remains non-empty (1/1); will retain in history
+0008.930 (0) Examining backup set with datestamp: 1453646214 (Jan 24 2016 14:36:54)
+0008.947 (0) 1453646214: this backup set remains non-empty (1/1); will retain in history
+0008.963 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0009.015 (0) Resume backup (e31c4eb40231, 0): finish run
+0009.051 (0) Decremented the semaphore (fd) by 1
+0009.067 (0) Semaphore (fd) unlocked
+0009.083 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0009.133 (0) No email will/can be sent - the user has not configured an email address.
+0009.149 (0) The backup apparently succeeded and is now complete

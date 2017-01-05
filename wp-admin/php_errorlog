@@ -1,0 +1,221 @@
+[29-Jun-2016 19:04:27 UTC] WordPress database error Table 'mesapor8_UcCT2H3Q.wp_frm_fields' doesn't exist for query 
+					SELECT 
+					  the_section.id
+					FROM 
+					  wp_frm_fields the_table
+					LEFT JOIN
+					  wp_frm_forms the_table_form ON the_table_form.id = the_table.form_id
+					RIGHT JOIN
+					  wp_frm_fields the_section ON the_section.form_id = the_table_form.parent_form_id
+					WHERE
+					  the_table.id = 198
+					  AND the_table.type = 'table' 
+					  AND the_section.type = 'divider'
+					  AND the_section.field_order < the_table.field_order
+					ORDER BY the_section.field_order ASC
+					LIMIT 1
+					 made by require_once('wp-load.php'), require_once('/home/mesapor8/wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, FrmProEntriesController::ajax_create, FrmFormsController::show_form, FrmFormsController::get_form, FrmFormsController::get_form_contents, do_action('frm_validate_form_creation'), call_user_func_array, FrmProEntry::validate, FrmProEntriesController::show_form_after_first_save_draft_click, FrmProEntriesController::setup_entry_values_for_editing, FrmProFieldsController::setup_field_data_for_editing_entry, apply_filters('frm_setup_edit_fields_vars'), call_user_func_array, FrmPlusFieldsHelper->setup_edit_field_vars, FrmPlusEntryMetaHelper::fetch, apply_filters('frm_plus_adjust_if_repeating'), call_user_func_array, FrmPlusEntryMetaHelper->adjust_if_repeating
+[30-Jun-2016 15:28:50 UTC] WordPress database error Table 'mesapor8_UcCT2H3Q.wp_frm_fields' doesn't exist for query 
+					SELECT 
+					  the_section.id
+					FROM 
+					  wp_frm_fields the_table
+					LEFT JOIN
+					  wp_frm_forms the_table_form ON the_table_form.id = the_table.form_id
+					RIGHT JOIN
+					  wp_frm_fields the_section ON the_section.form_id = the_table_form.parent_form_id
+					WHERE
+					  the_table.id = 198
+					  AND the_table.type = 'table' 
+					  AND the_section.type = 'divider'
+					  AND the_section.field_order < the_table.field_order
+					ORDER BY the_section.field_order ASC
+					LIMIT 1
+					 made by do_action('toplevel_page_formidable'), call_user_func_array, FrmFormsController::route, FrmFormsController::edit, FrmFormsController::get_edit_vars, FrmAppHelper::setup_edit_vars, FrmAppHelper::fill_field_defaults, apply_filters('frm_setup_edit_fields_vars'), call_user_func_array, FrmPlusFieldsHelper->setup_edit_field_vars, FrmPlusEntryMetaHelper::fetch, apply_filters('frm_plus_adjust_if_repeating'), call_user_func_array, FrmPlusEntryMetaHelper->adjust_if_repeating
+[30-Jun-2016 15:53:56 UTC] WordPress database error Table 'mesapor8_UcCT2H3Q.wp_frm_fields' doesn't exist for query 
+					SELECT 
+					  the_section.id
+					FROM 
+					  wp_frm_fields the_table
+					LEFT JOIN
+					  wp_frm_forms the_table_form ON the_table_form.id = the_table.form_id
+					RIGHT JOIN
+					  wp_frm_fields the_section ON the_section.form_id = the_table_form.parent_form_id
+					WHERE
+					  the_table.id = 198
+					  AND the_table.type = 'table' 
+					  AND the_section.type = 'divider'
+					  AND the_section.field_order < the_table.field_order
+					ORDER BY the_section.field_order ASC
+					LIMIT 1
+					 made by do_action('toplevel_page_formidable'), call_user_func_array, FrmFormsController::route, FrmFormsController::edit, FrmFormsController::get_edit_vars, FrmAppHelper::setup_edit_vars, FrmAppHelper::fill_field_defaults, apply_filters('frm_setup_edit_fields_vars'), call_user_func_array, FrmPlusFieldsHelper->setup_edit_field_vars, FrmPlusEntryMetaHelper::fetch, apply_filters('frm_plus_adjust_if_repeating'), call_user_func_array, FrmPlusEntryMetaHelper->adjust_if_repeating
+[30-Jun-2016 15:54:05 UTC] WordPress database error Table 'mesapor8_UcCT2H3Q.wp_frm_fields' doesn't exist for query 
+					SELECT 
+					  the_section.id
+					FROM 
+					  wp_frm_fields the_table
+					LEFT JOIN
+					  wp_frm_forms the_table_form ON the_table_form.id = the_table.form_id
+					RIGHT JOIN
+					  wp_frm_fields the_section ON the_section.form_id = the_table_form.parent_form_id
+					WHERE
+					  the_table.id = 198
+					  AND the_table.type = 'table' 
+					  AND the_section.type = 'divider'
+					  AND the_section.field_order < the_table.field_order
+					ORDER BY the_section.field_order ASC
+					LIMIT 1
+					 made by do_action('toplevel_page_formidable'), call_user_func_array, FrmFormsController::route, FrmFormsController::settings, FrmFormsController::get_settings_vars, FrmAppHelper::setup_edit_vars, FrmAppHelper::fill_field_defaults, apply_filters('frm_setup_edit_fields_vars'), call_user_func_array, FrmPlusFieldsHelper->setup_edit_field_vars, FrmPlusEntryMetaHelper::fetch, apply_filters('frm_plus_adjust_if_repeating'), call_user_func_array, FrmPlusEntryMetaHelper->adjust_if_repeating
+[30-Jun-2016 16:40:36 UTC] WordPress database error Table 'mesapor8_UcCT2H3Q.wp_frm_fields' doesn't exist for query 
+					SELECT 
+					  the_section.id
+					FROM 
+					  wp_frm_fields the_table
+					LEFT JOIN
+					  wp_frm_forms the_table_form ON the_table_form.id = the_table.form_id
+					RIGHT JOIN
+					  wp_frm_fields the_section ON the_section.form_id = the_table_form.parent_form_id
+					WHERE
+					  the_table.id = 198
+					  AND the_table.type = 'table' 
+					  AND the_section.type = 'divider'
+					  AND the_section.field_order < the_table.field_order
+					ORDER BY the_section.field_order ASC
+					LIMIT 1
+					 made by do_action('toplevel_page_formidable'), call_user_func_array, FrmFormsController::route, FrmFormsController::edit, FrmFormsController::get_edit_vars, FrmAppHelper::setup_edit_vars, FrmAppHelper::fill_field_defaults, apply_filters('frm_setup_edit_fields_vars'), call_user_func_array, FrmPlusFieldsHelper->setup_edit_field_vars, FrmPlusEntryMetaHelper::fetch, apply_filters('frm_plus_adjust_if_repeating'), call_user_func_array, FrmPlusEntryMetaHelper->adjust_if_repeating
+[30-Jun-2016 16:40:41 UTC] WordPress database error Table 'mesapor8_UcCT2H3Q.wp_frm_fields' doesn't exist for query 
+					SELECT 
+					  the_section.id
+					FROM 
+					  wp_frm_fields the_table
+					LEFT JOIN
+					  wp_frm_forms the_table_form ON the_table_form.id = the_table.form_id
+					RIGHT JOIN
+					  wp_frm_fields the_section ON the_section.form_id = the_table_form.parent_form_id
+					WHERE
+					  the_table.id = 198
+					  AND the_table.type = 'table' 
+					  AND the_section.type = 'divider'
+					  AND the_section.field_order < the_table.field_order
+					ORDER BY the_section.field_order ASC
+					LIMIT 1
+					 made by do_action('toplevel_page_formidable'), call_user_func_array, FrmFormsController::route, FrmFormsController::settings, FrmFormsController::get_settings_vars, FrmAppHelper::setup_edit_vars, FrmAppHelper::fill_field_defaults, apply_filters('frm_setup_edit_fields_vars'), call_user_func_array, FrmPlusFieldsHelper->setup_edit_field_vars, FrmPlusEntryMetaHelper::fetch, apply_filters('frm_plus_adjust_if_repeating'), call_user_func_array, FrmPlusEntryMetaHelper->adjust_if_repeating
+[30-Jun-2016 20:00:17 UTC] WordPress database error Table 'mesapor8_UcCT2H3Q.wp_frm_fields' doesn't exist for query 
+					SELECT 
+					  the_section.id
+					FROM 
+					  wp_frm_fields the_table
+					LEFT JOIN
+					  wp_frm_forms the_table_form ON the_table_form.id = the_table.form_id
+					RIGHT JOIN
+					  wp_frm_fields the_section ON the_section.form_id = the_table_form.parent_form_id
+					WHERE
+					  the_table.id = 198
+					  AND the_table.type = 'table' 
+					  AND the_section.type = 'divider'
+					  AND the_section.field_order < the_table.field_order
+					ORDER BY the_section.field_order ASC
+					LIMIT 1
+					 made by require_once('wp-load.php'), require_once('/home/mesapor8/wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, FrmProEntriesController::ajax_create, FrmFormsController::show_form, FrmFormsController::get_form, FrmFormsController::get_form_contents, do_action('frm_validate_form_creation'), call_user_func_array, FrmProEntry::validate, FrmProEntriesController::show_form_after_first_save_draft_click, FrmProEntriesController::setup_entry_values_for_editing, FrmProFieldsController::setup_field_data_for_editing_entry, apply_filters('frm_setup_edit_fields_vars'), call_user_func_array, FrmPlusFieldsHelper->setup_edit_field_vars, FrmPlusEntryMetaHelper::fetch, apply_filters('frm_plus_adjust_if_repeating'), call_user_func_array, FrmPlusEntryMetaHelper->adjust_if_repeating
+[30-Jun-2016 20:00:48 UTC] WordPress database error Table 'mesapor8_UcCT2H3Q.wp_frm_fields' doesn't exist for query 
+					SELECT 
+					  the_section.id
+					FROM 
+					  wp_frm_fields the_table
+					LEFT JOIN
+					  wp_frm_forms the_table_form ON the_table_form.id = the_table.form_id
+					RIGHT JOIN
+					  wp_frm_fields the_section ON the_section.form_id = the_table_form.parent_form_id
+					WHERE
+					  the_table.id = 198
+					  AND the_table.type = 'table' 
+					  AND the_section.type = 'divider'
+					  AND the_section.field_order < the_table.field_order
+					ORDER BY the_section.field_order ASC
+					LIMIT 1
+					 made by require_once('wp-load.php'), require_once('/home/mesapor8/wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, FrmProEntriesController::ajax_create, FrmFormsController::show_form, FrmFormsController::get_form, FrmFormsController::get_form_contents, do_action('frm_validate_form_creation'), call_user_func_array, FrmProEntry::validate, FrmProEntriesController::show_form_after_first_save_draft_click, FrmProEntriesController::setup_entry_values_for_editing, FrmProFieldsController::setup_field_data_for_editing_entry, apply_filters('frm_setup_edit_fields_vars'), call_user_func_array, FrmPlusFieldsHelper->setup_edit_field_vars, FrmPlusEntryMetaHelper::fetch, apply_filters('frm_plus_adjust_if_repeating'), call_user_func_array, FrmPlusEntryMetaHelper->adjust_if_repeating
+[15-Aug-2016 18:03:43 UTC] WordPress database error Table 'mesapor8_UcCT2H3Q.wp_frm_fields' doesn't exist for query 
+					SELECT 
+					  the_section.id
+					FROM 
+					  wp_frm_fields the_table
+					LEFT JOIN
+					  wp_frm_forms the_table_form ON the_table_form.id = the_table.form_id
+					RIGHT JOIN
+					  wp_frm_fields the_section ON the_section.form_id = the_table_form.parent_form_id
+					WHERE
+					  the_table.id = 198
+					  AND the_table.type = 'table' 
+					  AND the_section.type = 'divider'
+					  AND the_section.field_order < the_table.field_order
+					ORDER BY the_section.field_order ASC
+					LIMIT 1
+					 made by do_action('toplevel_page_formidable'), call_user_func_array, FrmFormsController::route, FrmFormsController::edit, FrmFormsController::get_edit_vars, FrmAppHelper::setup_edit_vars, FrmAppHelper::fill_field_defaults, apply_filters('frm_setup_edit_fields_vars'), call_user_func_array, FrmPlusFieldsHelper->setup_edit_field_vars, FrmPlusEntryMetaHelper::fetch, apply_filters('frm_plus_adjust_if_repeating'), call_user_func_array, FrmPlusEntryMetaHelper->adjust_if_repeating
+[15-Aug-2016 18:03:48 UTC] WordPress database error Table 'mesapor8_UcCT2H3Q.wp_frm_fields' doesn't exist for query 
+					SELECT 
+					  the_section.id
+					FROM 
+					  wp_frm_fields the_table
+					LEFT JOIN
+					  wp_frm_forms the_table_form ON the_table_form.id = the_table.form_id
+					RIGHT JOIN
+					  wp_frm_fields the_section ON the_section.form_id = the_table_form.parent_form_id
+					WHERE
+					  the_table.id = 198
+					  AND the_table.type = 'table' 
+					  AND the_section.type = 'divider'
+					  AND the_section.field_order < the_table.field_order
+					ORDER BY the_section.field_order ASC
+					LIMIT 1
+					 made by do_action('toplevel_page_formidable'), call_user_func_array, FrmFormsController::route, FrmFormsController::settings, FrmFormsController::get_settings_vars, FrmAppHelper::setup_edit_vars, FrmAppHelper::fill_field_defaults, apply_filters('frm_setup_edit_fields_vars'), call_user_func_array, FrmPlusFieldsHelper->setup_edit_field_vars, FrmPlusEntryMetaHelper::fetch, apply_filters('frm_plus_adjust_if_repeating'), call_user_func_array, FrmPlusEntryMetaHelper->adjust_if_repeating
+[04-Nov-2016 16:01:36 UTC] WordPress database error Table 'mesapor8_UcCT2H3Q.wp_frm_fields' doesn't exist for query 
+					SELECT 
+					  the_section.id
+					FROM 
+					  wp_frm_fields the_table
+					LEFT JOIN
+					  wp_frm_forms the_table_form ON the_table_form.id = the_table.form_id
+					RIGHT JOIN
+					  wp_frm_fields the_section ON the_section.form_id = the_table_form.parent_form_id
+					WHERE
+					  the_table.id = 198
+					  AND the_table.type = 'table' 
+					  AND the_section.type = 'divider'
+					  AND the_section.field_order < the_table.field_order
+					ORDER BY the_section.field_order ASC
+					LIMIT 1
+					 made by do_action('toplevel_page_formidable'), call_user_func_array, FrmFormsController::route, FrmFormsController::edit, FrmFormsController::get_edit_vars, FrmAppHelper::setup_edit_vars, FrmAppHelper::fill_field_defaults, apply_filters('frm_setup_edit_fields_vars'), call_user_func_array, FrmPlusFieldsHelper->setup_edit_field_vars, FrmPlusEntryMetaHelper::fetch, apply_filters('frm_plus_adjust_if_repeating'), call_user_func_array, FrmPlusEntryMetaHelper->adjust_if_repeating
+[04-Nov-2016 16:06:05 UTC] WordPress database error Table 'mesapor8_UcCT2H3Q.wp_frm_fields' doesn't exist for query 
+					SELECT 
+					  the_section.id
+					FROM 
+					  wp_frm_fields the_table
+					LEFT JOIN
+					  wp_frm_forms the_table_form ON the_table_form.id = the_table.form_id
+					RIGHT JOIN
+					  wp_frm_fields the_section ON the_section.form_id = the_table_form.parent_form_id
+					WHERE
+					  the_table.id = 198
+					  AND the_table.type = 'table' 
+					  AND the_section.type = 'divider'
+					  AND the_section.field_order < the_table.field_order
+					ORDER BY the_section.field_order ASC
+					LIMIT 1
+					 made by do_action('toplevel_page_formidable'), call_user_func_array, FrmFormsController::route, FrmFormsController::edit, FrmFormsController::get_edit_vars, FrmAppHelper::setup_edit_vars, FrmAppHelper::fill_field_defaults, apply_filters('frm_setup_edit_fields_vars'), call_user_func_array, FrmPlusFieldsHelper->setup_edit_field_vars, FrmPlusEntryMetaHelper::fetch, apply_filters('frm_plus_adjust_if_repeating'), call_user_func_array, FrmPlusEntryMetaHelper->adjust_if_repeating
+[04-Nov-2016 16:06:14 UTC] WordPress database error Table 'mesapor8_UcCT2H3Q.wp_frm_fields' doesn't exist for query 
+					SELECT 
+					  the_section.id
+					FROM 
+					  wp_frm_fields the_table
+					LEFT JOIN
+					  wp_frm_forms the_table_form ON the_table_form.id = the_table.form_id
+					RIGHT JOIN
+					  wp_frm_fields the_section ON the_section.form_id = the_table_form.parent_form_id
+					WHERE
+					  the_table.id = 198
+					  AND the_table.type = 'table' 
+					  AND the_section.type = 'divider'
+					  AND the_section.field_order < the_table.field_order
+					ORDER BY the_section.field_order ASC
+					LIMIT 1
+					 made by do_action('formidable_page_formidable-entries'), call_user_func_array, FrmEntriesController::route, do_action('frm_entry_action_route'), call_user_func_array, FrmProEntriesController::route, FrmEntriesController::display_list, require('/plugins/formidable/classes/views/frm-entries/list.php'), FrmListHelper->display, FrmListHelper->display_rows_or_placeholder, FrmListHelper->display_rows, FrmEntriesListHelper->single_row, FrmEntriesListHelper->get_column_value, FrmEntriesHelper::prepare_display_value, FrmEntriesHelper::display_value, apply_filters('frm_display_value_custom'), call_user_func_array, FrmPlusEntryMetaHelper::frmplus_display_value_custom, FrmPlusEntryMetaHelper::fetch, apply_filters('frm_plus_adjust_if_repeating'), call_user_func_array, FrmPlusEntryMetaHelper->adjust_if_repeating

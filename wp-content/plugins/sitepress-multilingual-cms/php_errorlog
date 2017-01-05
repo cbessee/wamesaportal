@@ -1,0 +1,1 @@
+[30-Sep-2016 22:06:19 CST6CDT] PHP Fatal error:  Call to undefined function wpml_get_authenticated_action() in /home/mesapor8/public_html/wp-content/plugins/sitepress-multilingual-cms/ajax.php on line 23

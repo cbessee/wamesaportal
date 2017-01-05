@@ -1,0 +1,144 @@
+0000.001 () Opened log file at time: Sun, 24 Jan 2016 15:15:44 +0000 on http://mesaportal.com
+0000.001 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.21.22 WP: 4.4.1 PHP: 5.4.45 (Linux serv01.c15692.sgvps.net 3.12.18-clouder0 #1 SMP Wed Jan 20 00:00:07 EET 2016 x86_64) MySQL: 5.5.31 Server: Apache/2.2.24 (Unix) mod_hive/5.0 mod_ssl/2.2.24 OpenSSL/1.0.0-fips mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635 mod_fastcgi/2.4.6 mod_fcgid/2.3.6 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 24M | 24.3M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.011 () Free space on disk containing Updraft's temporary directory: 28680.3 Mb
+0000.011 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":true,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.026 () Entity: db
+0000.026 () restore_backup(backup_file=backup_2016-01-24-0636_UW_MESA_Portal_2c2fd71583c1-db.gz, type=db, info=a:0:{}, last_one=)
+0000.026 () Unpacking backup...
+0000.027 () Database successfully unpacked
+0000.028 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.028 () Using direct MySQL access; value of use_mysqli is: 0
+0000.029 () Tried to raise max_allowed_packet from 16 Mb to 32 Mb, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.029 () Max packet size: 16 Mb
+0000.029 () Entering maintenance mode
+0000.029 () Enabling Maintenance mode&#8230;
+0000.030 () <strong>Backup of:</strong> http://mesaportal.com
+0000.031 () Content URL: http://mesaportal.com/wp-content
+0000.031 () Uploads URL: http://mesaportal.com/wp-content/uploads
+0000.031 () Old table prefix: wppPgUf8JE_
+0000.031 () Site information: multisite=0
+0000.033 () New table prefix: wpq8Ruf6bs_
+0000.040 () Restoring table (InnoDB): wppPgUf8JE_options - will restore as: wpq8Ruf6bs_options
+0000.201 () Restoring prior UD configuration (table: wpq8Ruf6bs_options; keys: 2)
+0000.202 () Table prefix has changed: changing options table field(s) accordingly (options)
+0000.202 () Options table fields changed OK
+0000.204 () No search/replace required: would-be search and replacement are identical
+0000.207 () Restoring table (InnoDB): wppPgUf8JE_users - will restore as: wpq8Ruf6bs_users
+0000.217 () No search/replace required: would-be search and replacement are identical
+0000.217 () Restoring table (InnoDB): wppPgUf8JE_usermeta - will restore as: wpq8Ruf6bs_usermeta
+0000.312 () Table prefix has changed: changing usermeta table field(s) accordingly
+0000.314 () Usermeta table fields changed OK
+0000.314 () No search/replace required: would-be search and replacement are identical
+0000.314 () Restoring table (InnoDB): wppPgUf8JE_commentmeta - will restore as: wpq8Ruf6bs_commentmeta
+0000.333 () No search/replace required: would-be search and replacement are identical
+0000.333 () Restoring table (InnoDB): wppPgUf8JE_comments - will restore as: wpq8Ruf6bs_comments
+0000.348 () No search/replace required: would-be search and replacement are identical
+0000.348 () Restoring table (InnoDB): wppPgUf8JE_links - will restore as: wpq8Ruf6bs_links
+0000.355 () No search/replace required: would-be search and replacement are identical
+0000.355 () Restoring table (InnoDB): wppPgUf8JE_postmeta - will restore as: wpq8Ruf6bs_postmeta
+0000.385 () No search/replace required: would-be search and replacement are identical
+0000.385 () Restoring table (InnoDB): wppPgUf8JE_posts - will restore as: wpq8Ruf6bs_posts
+0000.408 () No search/replace required: would-be search and replacement are identical
+0000.408 () Restoring table (InnoDB): wppPgUf8JE_term_relationships - will restore as: wpq8Ruf6bs_term_relationships
+0000.416 () Skipping this table: data in this table (wpq8Ruf6bs_term_relationships) should not be search/replaced
+0000.416 () Restoring table (InnoDB): wppPgUf8JE_term_taxonomy - will restore as: wpq8Ruf6bs_term_taxonomy
+0000.423 () No search/replace required: would-be search and replacement are identical
+0000.423 () Restoring table (InnoDB): wppPgUf8JE_termmeta - will restore as: wpq8Ruf6bs_termmeta
+0000.429 () No search/replace required: would-be search and replacement are identical
+0000.429 () Restoring table (InnoDB): wppPgUf8JE_terms - will restore as: wpq8Ruf6bs_terms
+0000.437 () No search/replace required: would-be search and replacement are identical
+0000.437 () Restoring table (InnoDB): wppPgUf8JE_frm_fields - will restore as: wpq8Ruf6bs_frm_fields
+0000.513 () No search/replace required: would-be search and replacement are identical
+0000.513 () Restoring table (InnoDB): wppPgUf8JE_frm_forms - will restore as: wpq8Ruf6bs_frm_forms
+0000.531 () No search/replace required: would-be search and replacement are identical
+0000.531 () Restoring table (InnoDB): wppPgUf8JE_frm_item_metas - will restore as: wpq8Ruf6bs_frm_item_metas
+0000.849 () Database queries processed: 50 in 0.82 seconds
+0001.451 () No search/replace required: would-be search and replacement are identical
+0001.451 () Restoring table (InnoDB): wppPgUf8JE_frm_items - will restore as: wpq8Ruf6bs_frm_items
+0001.632 () No search/replace required: would-be search and replacement are identical
+0001.632 () Restoring table (InnoDB): wppPgUf8JE_groups_capability - will restore as: wpq8Ruf6bs_groups_capability
+0001.651 () No search/replace required: would-be search and replacement are identical
+0001.651 () Restoring table (InnoDB): wppPgUf8JE_groups_group - will restore as: wpq8Ruf6bs_groups_group
+0001.656 () No search/replace required: would-be search and replacement are identical
+0001.656 () Restoring table (InnoDB): wppPgUf8JE_groups_group_capability - will restore as: wpq8Ruf6bs_groups_group_capability
+0001.663 () No search/replace required: would-be search and replacement are identical
+0001.663 () Restoring table (InnoDB): wppPgUf8JE_groups_user_capability - will restore as: wpq8Ruf6bs_groups_user_capability
+0001.667 () No search/replace required: would-be search and replacement are identical
+0001.667 () Restoring table (InnoDB): wppPgUf8JE_groups_user_group - will restore as: wpq8Ruf6bs_groups_user_group
+0001.674 () No search/replace required: would-be search and replacement are identical
+0001.674 () Restoring table (InnoDB): wppPgUf8JE_icl_content_status - will restore as: wpq8Ruf6bs_icl_content_status
+0001.679 () No search/replace required: would-be search and replacement are identical
+0001.679 () Restoring table (InnoDB): wppPgUf8JE_icl_core_status - will restore as: wpq8Ruf6bs_icl_core_status
+0001.683 () No search/replace required: would-be search and replacement are identical
+0001.683 () Restoring table (InnoDB): wppPgUf8JE_icl_flags - will restore as: wpq8Ruf6bs_icl_flags
+0001.694 () No search/replace required: would-be search and replacement are identical
+0001.694 () Restoring table (InnoDB): wppPgUf8JE_icl_languages - will restore as: wpq8Ruf6bs_icl_languages
+0001.706 () No search/replace required: would-be search and replacement are identical
+0001.706 () Restoring table (InnoDB): wppPgUf8JE_icl_languages_translations - will restore as: wpq8Ruf6bs_icl_languages_translations
+0002.177 () Skipping this table: data in this table (wpq8Ruf6bs_icl_languages_translations) should not be search/replaced
+0002.177 () Restoring table (InnoDB): wppPgUf8JE_icl_locale_map - will restore as: wpq8Ruf6bs_icl_locale_map
+0002.183 () No search/replace required: would-be search and replacement are identical
+0002.183 () Restoring table (InnoDB): wppPgUf8JE_icl_message_status - will restore as: wpq8Ruf6bs_icl_message_status
+0002.188 () No search/replace required: would-be search and replacement are identical
+0002.188 () Restoring table (InnoDB): wppPgUf8JE_icl_node - will restore as: wpq8Ruf6bs_icl_node
+0002.192 () No search/replace required: would-be search and replacement are identical
+0002.192 () Restoring table (InnoDB): wppPgUf8JE_icl_reminders - will restore as: wpq8Ruf6bs_icl_reminders
+0002.196 () No search/replace required: would-be search and replacement are identical
+0002.196 () Restoring table (InnoDB): wppPgUf8JE_icl_string_packages - will restore as: wpq8Ruf6bs_icl_string_packages
+0002.206 () Database queries processed: 100 in 2.18 seconds
+0002.209 () No search/replace required: would-be search and replacement are identical
+0002.210 () Restoring table (InnoDB): wppPgUf8JE_icl_string_positions - will restore as: wpq8Ruf6bs_icl_string_positions
+0002.318 () Skipping this table: data in this table (wpq8Ruf6bs_icl_string_positions) should not be search/replaced
+0002.318 () Restoring table (InnoDB): wppPgUf8JE_icl_string_status - will restore as: wpq8Ruf6bs_icl_string_status
+0002.325 () No search/replace required: would-be search and replacement are identical
+0002.325 () Restoring table (InnoDB): wppPgUf8JE_icl_string_translations - will restore as: wpq8Ruf6bs_icl_string_translations
+0002.331 () Skipping this table: data in this table (wpq8Ruf6bs_icl_string_translations) should not be search/replaced
+0002.331 () Restoring table (InnoDB): wppPgUf8JE_icl_strings - will restore as: wpq8Ruf6bs_icl_strings
+0002.420 () Skipping this table: data in this table (wpq8Ruf6bs_icl_strings) should not be search/replaced
+0002.420 () Restoring table (InnoDB): wppPgUf8JE_icl_translate - will restore as: wpq8Ruf6bs_icl_translate
+0002.425 () No search/replace required: would-be search and replacement are identical
+0002.426 () Restoring table (InnoDB): wppPgUf8JE_icl_translate_job - will restore as: wpq8Ruf6bs_icl_translate_job
+0002.430 () No search/replace required: would-be search and replacement are identical
+0002.430 () Restoring table (InnoDB): wppPgUf8JE_icl_translation_batches - will restore as: wpq8Ruf6bs_icl_translation_batches
+0002.436 () No search/replace required: would-be search and replacement are identical
+0002.436 () Restoring table (InnoDB): wppPgUf8JE_icl_translation_status - will restore as: wpq8Ruf6bs_icl_translation_status
+0002.441 () No search/replace required: would-be search and replacement are identical
+0002.441 () Restoring table (InnoDB): wppPgUf8JE_icl_translations - will restore as: wpq8Ruf6bs_icl_translations
+0002.450 () Leaving maintenance mode
+0002.450 () Disabling Maintenance mode&#8230;
+0002.450 () No search/replace required: would-be search and replacement are identical
+0002.450 () Finished: lines processed: 124 in 2.42 seconds
+0002.450 () Cleaning up rubbish...
+0002.451 () Begin search and replace (updraftplus_restored_db)
+0002.458 () Entity: plugins
+0002.458 () restore_backup(backup_file=backup_2016-01-24-0636_UW_MESA_Portal_2c2fd71583c1-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:45:"/home/mesapor8/public_html/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0002.458 () Unpacking backup... (backup_2016-01-24-0636_UW_MESA_Portal_2c2fd71583c1-plugins.zip, 21.3 Mb)
+0003.313 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.313 () Moving old data: can potentially use wp_filesystem method / -old
+0003.313 () Moving old data out of the way...
+0003.313 () Moving unpacked backup into place...
+0003.949 () Top-level entities being moved: wordpress-https-dontuse, wp-idle-logout, wp-spamshield, capability-manager-enhanced, squelch-tabs-and-accordions-shortcodes, updraftplus, wpml-translation-management, index.php, add-from-server, codecanyon-3958969-wpdatatables-responsive-tables-in-wordpress, formidable-customizations, wp-rocket, regenerate-thumbnails, genesis-responsive-slider, reveal-ids-for-wp-admin-25, formidable-signature, peters-login-redirect, sitepress-multilingual-cms, nav-menu-roles, expire-users, genesis-simple-hooks, easy-wp-smtp, shortcodes-ultimate, wpml-string-translation, formidable, genesis-simple-edits, formidable-registration, formidable-plus, formidable-wpml, groups
+0004.044 () Cleaning up rubbish...
+0004.046 () Entity: themes
+0004.046 () restore_backup(backup_file=backup_2016-01-24-0636_UW_MESA_Portal_2c2fd71583c1-themes.zip, type=themes, info=a:2:{s:4:"path";s:44:"/home/mesapor8/public_html/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0004.046 () Unpacking backup... (backup_2016-01-24-0636_UW_MESA_Portal_2c2fd71583c1-themes.zip, 8.9 Mb)
+0004.258 () Moving old data: filesystem method / updraft_dir is potentially possible
+0004.258 () Moving old data: can potentially use wp_filesystem method / -old
+0004.258 () Moving old data out of the way...
+0004.258 () Moving unpacked backup into place...
+0004.395 () Top-level entities being moved: index.php, twentythirteen, twentytwelve, education-pro, uw-2014-master, twentyfourteen-child, twentyfourteen, genesis
+0004.405 () Cleaning up rubbish...
+0004.407 () Entity: uploads
+0004.407 () restore_backup(backup_file=backup_2016-01-24-0636_UW_MESA_Portal_2c2fd71583c1-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:45:"/home/mesapor8/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0004.407 () Unpacking backup... (backup_2016-01-24-0636_UW_MESA_Portal_2c2fd71583c1-uploads.zip, 0.4 Mb)
+0004.413 () Moving old data: filesystem method / updraft_dir is potentially possible
+0004.413 () Moving old data: can potentially use wp_filesystem method / -old
+0004.413 () Moving old data out of the way...
+0004.413 () Moving unpacked backup into place...
+0004.422 () Cleaning up rubbish...
+0004.423 () Entity: others
+0004.423 () restore_backup(backup_file=backup_2016-01-24-0636_UW_MESA_Portal_2c2fd71583c1-others.zip, type=others, info=a:2:{s:4:"path";s:37:"/home/mesapor8/public_html/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0004.423 () Unpacking backup... (backup_2016-01-24-0636_UW_MESA_Portal_2c2fd71583c1-others.zip, 0.4 Mb)
+0004.436 () Cleaning up rubbish...
+0004.459 () Restore successful!
+0004.459 () Restore successful

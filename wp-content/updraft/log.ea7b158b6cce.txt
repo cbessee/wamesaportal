@@ -1,0 +1,97 @@
+0000.002 (0) Opened log file at time: Sat, 22 Oct 2016 21:26:02 +0000 on http://mesaportal.com
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.12.21.22 WP: 4.6.1 PHP: 5.4.45 (cgi-fcgi, Linux serv01.c15692.sgvps.net 3.12.18-clouder0 #3 SMP Thu Oct 20 14:54:11 EEST 2016 x86_64) MySQL: 5.5.31 WPLANG: en_US Server: Apache/2.2.24 (Unix) mod_hive/5.0 mod_ssl/2.2.24 OpenSSL/1.0.0-fips mod_auth_passthrough/2.1 mod_bwlimited/1.4 mod_fastcgi/2.4.6 mod_fcgid/2.3.6 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 49.7M | 50.8M) multisite: N openssl: OpenSSL 1.0.2h  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.111 (0) Free space on disk containing Updraft's temporary directory: 25325.4 MB
+0000.115 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.117 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.119 (0) Set semaphore last lock (fd) time to 2016-10-22 21:26:02
+0000.120 (0) Semaphore lock (fd) complete
+0000.123 (0) Backup run: resumption=0, nonce=ea7b158b6cce, begun at=1477171562 (0s ago), job type=backup, label=Automatic backup before update
+0000.124 (0) A resumption will be scheduled for the cloud backup stage
+0000.125 (0) Scheduling a resumption (1) after 300 seconds (1477171862) in case this run gets aborted
+0000.137 (0) Checking if we have a zip executable available
+0000.139 (0) Testing: /usr/bin/zip
+0000.146 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.147 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.148 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.150 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.157 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.159 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.160 (0) Stderr output: 
+0000.160 (0) Stderr output: 
+0000.161 (0) Stderr output: 
+0000.168 (0) Working binary zip found: /usr/bin/zip
+0000.170 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.171 (0) Creation of backups of directories: beginning
+0000.173 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.511 (0) Total entities for the zip file: 831 directories, 5113 files (0 skipped as non-modified), 56.7 MB
+0000.515 (0) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.518 (0) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.521 (0) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.524 (0) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.527 (0) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.527 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.2 MB, 5113 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.831 (0) backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: size is now: 2.30 MB
+0000.839 (0) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 600 files added (on-disk size: 2360.6 KB)
+0000.842 (0) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 700 files added (on-disk size: 2360.6 KB)
+0000.844 (0) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 800 files added (on-disk size: 2360.6 KB)
+0000.847 (0) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 900 files added (on-disk size: 2360.6 KB)
+0000.850 (0) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 1000 files added (on-disk size: 2360.6 KB)
+0000.851 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.4 MB, 5113 files batched, 501 (1002) added so far); re-opening (prior size: 2360.6 KB)
+0001.388 (0) backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: size is now: 4.50 MB
+0001.399 (0) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 1100 files added (on-disk size: 4604.7 KB)
+0001.403 (0) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 1200 files added (on-disk size: 4604.7 KB)
+0001.409 (0) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 1300 files added (on-disk size: 4604.7 KB)
+0001.414 (0) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 1400 files added (on-disk size: 4604.7 KB)
+0001.419 (0) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 1500 files added (on-disk size: 4604.7 KB)
+0001.421 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.3 MB, 5113 files batched, 501 (1503) added so far); re-opening (prior size: 4604.7 KB)
+0001.685 (0) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 1600 files added (on-disk size: 5370.5 KB)
+0001.689 (0) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 1700 files added (on-disk size: 5370.5 KB)
+0001.693 (0) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 1800 files added (on-disk size: 5370.5 KB)
+0001.695 (0) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 1900 files added (on-disk size: 5370.5 KB)
+0001.698 (0) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 2000 files added (on-disk size: 5370.5 KB)
+0001.699 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.2 MB, 5113 files batched, 501 (2004) added so far); re-opening (prior size: 5370.5 KB)
+0002.055 (0) backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: size is now: 6.50 MB
+0002.064 (0) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 2100 files added (on-disk size: 6673.3 KB)
+0002.067 (0) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 2200 files added (on-disk size: 6673.3 KB)
+0002.072 (0) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 2300 files added (on-disk size: 6673.3 KB)
+0002.076 (0) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 2400 files added (on-disk size: 6673.3 KB)
+0002.081 (0) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 2500 files added (on-disk size: 6673.3 KB)
+0002.082 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.2 MB, 5113 files batched, 501 (2505) added so far); re-opening (prior size: 6673.3 KB)
+0322.069 (1) Opened log file at time: Sat, 22 Oct 2016 21:31:24 +0000 on http://mesaportal.com
+0322.070 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.12.21.22 WP: 4.6.1 PHP: 5.4.45 (cgi-fcgi, Linux serv01.c15692.sgvps.net 3.12.18-clouder0 #3 SMP Thu Oct 20 14:54:11 EEST 2016 x86_64) MySQL: 5.5.31 WPLANG: en_US Server: Apache/2.2.24 (Unix) mod_hive/5.0 mod_ssl/2.2.24 OpenSSL/1.0.0-fips mod_auth_passthrough/2.1 mod_bwlimited/1.4 mod_fastcgi/2.4.6 mod_fcgid/2.3.6 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 46.3M | 47.3M) multisite: N openssl: OpenSSL 1.0.2h  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0322.106 (1) Free space on disk containing Updraft's temporary directory: 25311.5 MB
+0322.108 (1) Backup run: resumption=1, nonce=ea7b158b6cce, begun at=1477171562 (322s ago), job type=backup, previous check-in=2.1s
+0322.111 (1) We are in "one shot" mode - no resumptions will be scheduled
+0322.122 (1) Checking if we have a zip executable available
+0322.123 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0322.124 (1) Creation of backups of directories: had begun; will resume
+0322.125 (1) Beginning creation of dump of plugins (split every: 400 MB)
+0322.127 (1) File exists (/home/mesapor8/public_html/wp-content/updraft/backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1477171564, time_now=1477171884, diff=320)
+0322.260 (1) backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: Zip file already exists, with 2004 files
+0322.346 (1) Total entities for the zip file: 831 directories, 5113 files (0 skipped as non-modified), 56.7 MB
+0322.349 (1) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 100 files added (on-disk size: 6673.3 KB)
+0322.350 (1) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 200 files added (on-disk size: 6673.3 KB)
+0322.352 (1) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 300 files added (on-disk size: 6673.3 KB)
+0322.354 (1) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 400 files added (on-disk size: 6673.3 KB)
+0322.356 (1) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 500 files added (on-disk size: 6673.3 KB)
+0322.358 (1) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 600 files added (on-disk size: 6673.3 KB)
+0322.360 (1) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 700 files added (on-disk size: 6673.3 KB)
+0322.361 (1) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 800 files added (on-disk size: 6673.3 KB)
+0322.363 (1) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 900 files added (on-disk size: 6673.3 KB)
+0322.365 (1) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 1000 files added (on-disk size: 6673.3 KB)
+0322.367 (1) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 1100 files added (on-disk size: 6673.3 KB)
+0322.369 (1) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 1200 files added (on-disk size: 6673.3 KB)
+0322.371 (1) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 1300 files added (on-disk size: 6673.3 KB)
+0322.373 (1) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 1400 files added (on-disk size: 6673.3 KB)
+0322.375 (1) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 1500 files added (on-disk size: 6673.3 KB)
+0322.376 (1) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 1600 files added (on-disk size: 6673.3 KB)
+0322.378 (1) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 1700 files added (on-disk size: 6673.3 KB)
+0322.380 (1) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 1800 files added (on-disk size: 6673.3 KB)
+0322.381 (1) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 1900 files added (on-disk size: 6673.3 KB)
+0322.383 (1) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 2000 files added (on-disk size: 6673.3 KB)
+0322.386 (1) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 2100 files added (on-disk size: 6673.3 KB)
+0322.389 (1) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 2200 files added (on-disk size: 6673.3 KB)
+0322.392 (1) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 2300 files added (on-disk size: 6673.3 KB)
+0322.395 (1) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 2400 files added (on-disk size: 6673.3 KB)
+0322.397 (1) Zip: backup_2016-10-22-1426_UW_MESA_Portal_ea7b158b6cce-plugins.zip.tmp: 2500 files added (on-disk size: 6673.3 KB)
+0322.398 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.2 MB, 5113 files batched, 501 (501) added so far); re-opening (prior size: 6673.3 KB)
